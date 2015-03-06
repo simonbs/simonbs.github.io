@@ -12,7 +12,7 @@ permalink: /resume/
 
 <a href="http://nozebra.dk/" target="_blank">No Zebra</a>
 
-- iOS Developer (November 2012 - January 2013)
+- iOS Developer (November 2011 - January 2013)
 
 <a href="http://ipinion.dk/" target="_blank">iPinion</a>
 
