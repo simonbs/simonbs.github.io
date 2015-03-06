@@ -9,12 +9,12 @@ theme:
   avatar: avatar.jpg
   gravatar: # email md5 hash
   description: "I'm Simon Støvring. I build things at Robocat." # used by search engines
-  
+
   # Header and footer text
   header_text: >
-    <p>I'm Simon Støvring. I builds thing at <a target="_blank" href="http:/robo.cat/">Robocat.</p>
-  footer_text: >
-    <p>&nbsp;</p>  
+    I'm Simon Støvring. I build things.<br />
+    I'm allergic to cats yet I'm part of the <a target="_blank" href="http:/robo.cat/">Robocat</a> team.
+  # footer_text: <a href="/archive/">Archive</a>
   # Icons
   rss: true
   email_address: "mail@simonbs.dk" # full email address, e.g. "sam@example.com"
