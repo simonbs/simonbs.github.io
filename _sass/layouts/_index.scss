@@ -100,6 +100,8 @@
   .title {
     @extend %overlay;
     color: #fff;
+    font-family: 'Khula', Helvetica, sans-serif;
+    font-weight: bold;
     margin: 10pt;
     pointer-events: none;
   }
