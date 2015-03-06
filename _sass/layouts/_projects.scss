@@ -25,31 +25,19 @@
   .featured {
     @extend %project;
     width: 100%;
-    font-size: 20pt;
-    
-    @include desktop {
-      font-size: 30pt;
-    }
+    font-size: 2em;
   }
 
   .big {
     @extend %project;
     width: 49%;
-    font-size: 14pt;
-
-    @include desktop {
-      font-size: 20pt;
-    }
+    font-size: 1.5em;
   }
 
   .small {
     @extend %project;
     width: 32%;
-    font-size: 10pt;
-
-    @include desktop {
-      font-size: 14pt;
-    }
+    font-size: 1em;
   }
   
   .left {

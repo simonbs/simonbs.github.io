@@ -4,13 +4,9 @@
   display: inline-block;
   width: 100%;
   background: none repeat scroll 0% 0% $header-desc-background-color;
-  font-size: 0.9em;
+  font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
-
-  @include desktop {
-    font-size: 1.2em;
-  }
 }
 .call-out p:last-child {
   margin-bottom: 0;
