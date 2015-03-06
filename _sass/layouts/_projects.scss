@@ -132,6 +132,11 @@
     background-image: url('../img/fortael.jpg');
   }
 
+  .monkeytube {
+    @extend %image;
+    background-image: url('../img/monkeytube.jpg');
+  }
+
   .diims {
     @extend %image;
     background-image: url('../img/diims.png');
