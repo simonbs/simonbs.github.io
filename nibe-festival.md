@@ -14,4 +14,5 @@ Nye festivalgængere vil finde kortet i applikationen behjælpeligt. Kortet vise
 
 Applikationen kan ikke længere hentes på App Store.
 
+{:.center}
 ![Nibe Festival](/img/portfolio-nibe-festival.png)
