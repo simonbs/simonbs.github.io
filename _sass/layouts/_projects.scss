@@ -1,5 +1,5 @@
 .projects {
-  @extend %padding-regular;
+  @extend %padding-regular-unless-mobile;
   padding-top: 0;
   padding-bottom: 0;
 
