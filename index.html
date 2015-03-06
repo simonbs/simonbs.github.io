@@ -8,40 +8,7 @@ layout: default
   <div class="call-out">{{ site.theme.header_text }}</div>
   {% endif %}
 
-  <div class="projects">
-    <div class="featured breaking" onClick="javascript:window.open('http://itsbreaking.com/');">
-      <div class="tint"></div>
-      <div class="title">Breaking</div>
-    </div>
-    <div class="big left be-my-eyes" onClick="javascript:window.open('http://bemyeyes.org/');">
-      <div class="tint"></div>
-      <div class="title">Be My Eyes</div>
-    </div>
-    <div class="big right thermodo" onClick="javascript:window.open('http://thermodo.com/');">
-      <div class="tint"></div>
-      <div class="title">Thermodo</div>
-    </div>
-    <div class="big left lego-tv" onClick="javascript:window.open('https://itunes.apple.com/dk/app/lego-tv/id659284915');">
-      <div class="tint"></div>
-      <div class="title">LEGO TV</div>
-    </div>
-    <div class="big right fortael" onClick="javascript:window.open('https://itunes.apple.com/dk/app/fort-l!/id897832711');">
-      <div class="tint"></div>
-      <div class="title">Fortæl!</div>
-    </div>
-    <div class="small left diims" onClick="javascript:window.open('https://itunes.apple.com/dk/app/diims/id529058443');">
-      <div class="tint"></div>
-      <div class="title">Diims</div>
-    </div>
-    <div class="small center nibe-festival" onClick="javascript:location.href='/apps/nibe-festival';">
-      <div class="tint"></div>
-      <div class="title">Nibe Festival</div>
-    </div>
-    <div class="project small right fup-i-farvandet" onClick="javascript:window.open('https://itunes.apple.com/dk/app/fupcast-fup-i-farvandet-pa/id470283676');">
-      <div class="tint"></div>
-      <div class="title">Fup I Farvandet</div>
-    </div>
-  </div>
+  {% include projects.html %}
 
   <div class="posts">
     {% for post in paginator.posts %}
