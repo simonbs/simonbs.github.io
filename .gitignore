@@ -4,6 +4,8 @@ test/dest
 pkg/
 *.swp
 *~
+\.\#*
+\#*
 _site/
 .bundle/
 .DS_Store

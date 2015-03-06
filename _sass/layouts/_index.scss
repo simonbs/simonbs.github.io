@@ -43,19 +43,31 @@
   .featured {
     @extend %project;
     width: 100%;
-    font-size: 28pt;
+    font-size: 20pt;
+    
+    @include desktop {
+      font-size: 30pt;
+    }
   }
 
   .big {
     @extend %project;
     width: 49%;
-    font-size: 20pt;
+    font-size: 14pt;
+
+    @include desktop {
+      font-size: 20pt;
+    }
   }
 
   .small {
     @extend %project;
     width: 32%;
-    font-size: 14pt;
+    font-size: 10pt;
+
+    @include desktop {
+      font-size: 14pt;
+    }
   }
   
   .left {
