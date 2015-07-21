@@ -94,6 +94,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .gifferent {
+    @extend %image;
+    background-image: url('../img/gifferent.png');
+  }
   
   .breaking {
     @extend %image;
