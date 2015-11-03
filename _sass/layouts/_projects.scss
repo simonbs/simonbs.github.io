@@ -29,6 +29,10 @@
     clear: both;
   }
 
+  .huge {
+    padding-top: 40%;
+  }
+
   .big {
     @extend %project;
     width: 49%;
@@ -94,6 +98,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .drtv {
+    @extend %image;
+    background-image: url('../img/drtv.png');
+    background-position: top;
   }
 
   .gifferent {
