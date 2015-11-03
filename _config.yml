@@ -16,7 +16,7 @@ theme:
     I'm allergic to cats yet I'm part of the <a target="_blank" href="http:/robo.cat/">Robocat</a> team.
   # footer_text: <a href="/archive/">Archive</a>
   # Icons
-  rss: true
+  rss: false
   email_address: "mail@simonbs.dk" # full email address, e.g. "sam@example.com"
   behance:
   bitbucket: 
