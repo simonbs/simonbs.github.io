@@ -13,9 +13,12 @@
     cursor: pointer;
   }
   
-  %project:hover > .title,
+  %project:hover > .title {
+      @include alpha(1);
+  }
+  
   %project:hover > .tint {
-    @include alpha(0);
+    @include alpha(0.45);
   }
 
   %project:hover > %image {
@@ -68,7 +71,7 @@
     width: 100%;
     height: 100%;
     background-color: #000;
-    @include alpha(0.45);
+    @include alpha(0);
 
     @include desktop {
       @include transition;
@@ -77,6 +80,7 @@
 
   .title {
     @extend %overlay;
+    @include alpha(0);  
     color: #fff;
     font-family: 'Khula', Helvetica, sans-serif;
     font-weight: bold;
