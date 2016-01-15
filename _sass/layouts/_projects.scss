@@ -103,6 +103,12 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  
+  .danskfilmskat {
+    @extend %image;
+    background-image: url('../img/danskfilmskat.png');
+    background-position: top;
+  }
 
   .drtv {
     @extend %image;
