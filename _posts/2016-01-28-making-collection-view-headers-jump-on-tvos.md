@@ -96,7 +96,7 @@ You may call the method like shown below in order to adjust the title label upwa
 {% endhighlight %}
                   
 What is the attachment good for, you might ask. Well, when scrolling a horizontal collection view you'll sometimes focus a cell that's not within the visible rectangle of the collection view.
-For example, when your collection view is scrolled all the way to the right, and you scroll to the left, you may focus a cell that is left of the header view. When focused, the cell will animate in (scroll in) to be within the visible rectangle of the collection view. In this case there's no collision with the cell that's not within the visible rectangle and the header view, but there will soon be (when the scroll finishes). In those cases we want to keep the title adjusted, even if there are no collisions.
+For example, when your collection view is scrolled all the way to the right, and you scroll to the left, you may focus a cell that is left of the header view. When focused, the cell will animate in (scroll in) to be within the visible rectangle of the collection view. In this case there's no collision with the cell that's not within the visible rectangle and the header view, but there will soon be (when the scroll finish). In those cases we want to keep the title adjusted, even if there are no collisions.
 You can attach view to the left or the right of the header view. It is very common to attach title labels to the left of your header view.
 
 That's all there is to it. It's relatively simple to configure is sufficiently generic that the header views of your outermost collection view can contain any subviews that can be adjusted. Also, your innermost collection views can have any collection view layout.
