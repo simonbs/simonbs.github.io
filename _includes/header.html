@@ -18,7 +18,8 @@
 	
 	<nav class="site-nav">
 		<ul>
-			{% for page in site.pages %}
+      {% assign pages = site.pages | sort:"weight"  %}
+			{% for page in pages %}
 				{% if page.title and page.hide != true %}
 				<li>
 					<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

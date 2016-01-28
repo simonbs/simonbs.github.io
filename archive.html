@@ -3,11 +3,13 @@ layout: page
 title: Archive
 hide: true
 permalink: /archive/
+weight: 1
 ---
 
 <section id="archive">
   <h3>This year's posts</h3>
   {%for post in site.posts %}
+  {% unless post.hide %}
   {% unless post.next %}
   <ul class="this">
     {% else %}
@@ -18,8 +20,9 @@ permalink: /archive/
   <h3>{{ post.date | date: '%Y' }}</h3>
   <ul class="past">
     {% endif %}
-    {% endunless %}
+    {% endunless %}    
     <li><time>{{ post.date | date:"%d %b %Y" }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endunless %}
     {% endfor %}
   </ul>
 </section>

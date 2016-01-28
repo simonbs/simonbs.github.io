@@ -12,6 +12,7 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
+    {% unless post.hide %}
     <div class="post-teaser">
     
       <header>
@@ -29,6 +30,7 @@ layout: default
       </div>
       
     </div>
+    {% endunless %}
     {% endfor %}
   </div>
 

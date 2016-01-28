@@ -2,6 +2,7 @@
 layout: page
 title: Résumé
 permalink: /resume/
+weight: 0
 ---
 
 ### Employment

@@ -25,7 +25,7 @@ theme:
   flickr: 
   github: "simonbs"
   google_plus: 
-  instagram:
+  instagram: 
   linkedin:  # full URL
   pinterest: 
   reddit: 
@@ -38,7 +38,7 @@ theme:
   youtube: 
   
   # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
+  google_analytics: "UA-60476988-1" # tracking id, e.g. "UA-000000-01"
   disqus_shortname:
   
   # Localization strings
