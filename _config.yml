@@ -12,7 +12,8 @@ theme:
 
   # Header and footer text
   header_text: >
-    I'm Simon Støvring. I build things.
+    I'm Simon Støvring. I build things.<br />
+    I write bugs at <a href="http://shape.dk/" target="_blank">Shape</a> and I like emojis 🚀
   # footer_text: <a href="/archive/">Archive</a>
   # Icons
   rss: false
