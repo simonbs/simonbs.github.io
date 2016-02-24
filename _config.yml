@@ -12,8 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-    I'm Simon Støvring. I build things.<br />
-    I'm allergic to cats yet I'm part of the <a target="_blank" href="http:/robo.cat/">Robocat</a> team.
+    I'm Simon Støvring. I build things.
   # footer_text: <a href="/archive/">Archive</a>
   # Icons
   rss: false

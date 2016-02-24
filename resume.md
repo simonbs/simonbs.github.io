@@ -7,9 +7,13 @@ weight: 0
 
 ### Employment
 
+<a href="http://shape.dk/" target="_blank">Shape</a>
+
+- Developer (February 2016 - present)
+
 <a href="http://robo.cat/" target="_blank">Robocat</a>
 
-- iOS & OS X Developer (February 2013 - present)
+- iOS & OS X Developer (February 2013 - January 2016)
 
 <a href="http://nozebra.dk/" target="_blank">No Zebra</a>
 
