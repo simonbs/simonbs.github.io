@@ -25,7 +25,7 @@ weight: 0
 
 ### Education
 
-Aalborg University, Department of Computer Science (September 2014 - present)
+Aalborg University, Department of Computer Science (September 2014 - June 2016)
 
 - M.Sc. in Engineering (Software)
 
