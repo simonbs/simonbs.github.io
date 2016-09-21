@@ -103,6 +103,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .sticky-draw {
+    @extend %image;
+    background-image: url('../img/sticky-draw.png');
+  }
   
   .danskfilmskat {
     @extend %image;
