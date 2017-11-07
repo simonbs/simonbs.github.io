@@ -18,4 +18,6 @@ coverage
 .sass-cache
 tmp/*
 .jekyll-metadata
+.tweet-cache
 /vendor
+
